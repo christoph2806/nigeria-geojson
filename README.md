@@ -96,6 +96,7 @@ Line format is `CLUSTER <cluster-id> <pixel-id>`:
 
 * cluster-id integer in [1 .. 201]
 * pixel-id `<latitude>N<longitude>E`
+* pixel-id represents the SW corner of the 0.05° x 0.05° sized pixel
 * latitude and longitude are 5 digit numbers with the 2 most significant digits represent degrees and the remaining digits fractions of degrees
 
 Example:
